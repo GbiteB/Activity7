@@ -1,0 +1,486 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.d-flex {
+    display: flex;
+}
+.d-flex2 {
+    display: flex;
+}
+.nav-container {
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+.logo {
+    font-size: 2.0rem;
+    color: rgba(128, 128, 128, 0.829);
+    font-family: 'Barlow', sans-serif  
+}
+.hero-bg {
+    background: url(../img/hero-bg.jpg);
+    height: 120vh;
+    background-position: 50% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero-container {
+    color: white;
+}
+.web-text {
+    font-family: 'PT Sans', sans-serif;
+}
+.house-repair {
+    font-size: 3.5rem;
+    font-weight: 1;
+}
+.border-bottom {
+    border-bottom: solid;
+    border-width: 10px;
+}
+.services {
+    font-size: 6.0rem;
+    font-weight: 900;
+}
+
+.hero-container .web-text {
+    padding: 280px 600px 100px 50px;
+}
+.grid-row {
+    gap: 130px;
+}
+.padd-updwn {
+    padding: 30px 0;
+}
+.section-two {
+    background-color: rgba(243, 243, 243, 0.911);
+    padding: 200px 250px 100px 250px;
+    text-align: center;
+}
+.text-howcani {
+    font-size: 3.0rem;
+    font-weight: 700;  
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0;
+}
+.web-text2 {
+    font-size: 1.3rem;
+    font-family: Tahoma, sans-serif;
+    font-weight: 100;
+    padding-bottom: 50px;
+}
+.button{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 35px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+.section-three {
+    padding: 50px 120px;
+}
+.padding-bottom1 {
+    padding-bottom: 50px;
+}
+.text-padding {
+    padding: 50px;
+}
+.sect3text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.0rem;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.sect3text2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding-bottom: 80px;
+    color: red;
+}
+.best-quality {
+    font-size: 4.8rem;
+    font-weight: 700;
+    color: rgb(23, 59, 165);
+}
+.section-four {
+    background-image: linear-gradient(to right, rgba(240, 240, 240, 0.884) , rgba(158, 155, 155, 0.582));
+    height: 105vh;
+    gap: 10px;
+}
+.sect4a {
+    padding-left: 70px;
+    width: 45%;
+}
+.sect4a img{
+    width: 95%;
+    height: 105vh;
+    overflow: hidden;
+}
+.sect4b {
+    width: 48%;
+    padding: 150px 0 0 0;
+}
+.border {
+    border-bottom: solid;
+    border-width: 10px;
+    border-color: red;
+    padding: 20px 0;  
+}
+.section-five {
+    padding: 30px 80px 120px 80px;
+    justify-content: space-between;
+}
+.our-services {
+    width: 33%;
+}
+.service-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    
+}
+.service-img {
+    width: 75px;
+    height: 75px;
+    margin: 20px 0;
+}
+.section-six {
+    background: hsla(226, 60%, 30%, 0.925);
+    padding: 50px 120px 50px 100px;
+}
+.about-us {
+    box-sizing: border-box;
+    width: 50%;
+    color: white;
+    padding: 100px 20px 0 0;
+}
+.pic-container {
+    width: 45%;
+}
+.img-sizes {
+    width: 230px;
+    height: 200px;
+    overflow: hidden;
+    margin: 15px;
+}
+.plumbing-text {
+    font-size: 6.0rem;
+    font-weight: 200;
+}
+.services-text {
+    font-size: 5.8rem;
+    font-weight: 700;
+}
+.section-seven {
+    padding: 50px 280px;
+    text-align: center;
+}
+.web-text3 {
+    font-size: 1.7rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 25px 25px;
+    line-height: 2.4rem;
+}
+.button2 {
+    border: 1px solid black;
+    padding: 15px 45px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+.button-div {
+    justify-content: center;
+    gap: 15px;
+}
+
+
+
+
+@media (max-width: 380px) {
+    .hero-bg {
+        background-position: 75% 0;
+        width: 100%;
+    }
+    
+    .hero-container .web-text {
+        padding: 400px 30px 50px 30px;
+    }
+
+    .house-repair {
+        font-size: 2.0rem;
+    }
+
+    .services {
+        font-size: 3.2rem;
+    }
+
+    .border-bottom {
+        border-bottom: solid;
+        border-width: 10px;
+    }
+
+    .grid-row img {
+        display: none;
+    }
+
+    .grid-row p {
+        display: none;
+    }
+
+    .section-two {
+        padding: 50px 40px;
+    }
+
+    .section-three {
+        display: flex;
+        flex-direction: column;
+        padding: 40px 40px;
+    }
+    .web-text2 {
+        font-size: 1.1rem;
+    }
+
+    .text-padding {
+        padding: 50px 0;
+    }
+
+    .sect3text {
+        font-size: 1.65rem;
+    }
+
+    .sect3text2 {
+        font-size: 1.55rem;
+        padding-bottom: 30px;
+    }
+
+    .section-three img {
+        width: 100%;
+        height: 320px;
+        object-fit: cover;
+        overflow: hidden;
+    }
+
+    .section-four {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 10px 20px;
+    }
+
+    .sect4a {
+        padding: 0 0 0 0;
+        width: auto;
+        height: 430px;
+        object-fit: cover;
+        object-position: 0 30%;
+        overflow: hidden;
+    }
+
+    .sect4b {
+        width: 100%;
+        padding: 100px 20px 20px 20px;
+    }
+
+    .best-quality {
+        font-size: 2.8rem;
+        font-weight: 700;
+    }
+
+    .section-five {
+        display: flex;
+        flex-direction: column;
+        padding: 30px 40px
+    }
+
+    .text-howcani {
+        font-size: 2.5rem;
+    }
+
+    .d-flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .service-text {
+        justify-content: left;
+        padding: 0 0 0 0;
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+    }
+
+    .our-services {
+        width: 100%;
+    }
+
+    .section-six {
+        padding: 0px 40px 50px 40px;
+    }
+
+    .plumbing-text {
+        font-size: 3.5rem;
+        font-weight: 200;
+    }
+
+    .services-text {
+        font-size: 3.2rem;
+        font-weight: 700;
+    }
+
+    .pic-container {
+        width: auto;
+        margin: 40px 0 0 0;
+        align-items: center;
+    }
+
+    img.img-sizes {
+        width: 100%;
+        height: 250px;
+        overflow: hidden;
+        margin: 15px 0 ;
+    }
+
+    .section-seven {
+        padding: 80px 40px;
+    }
+    .button-div {
+        padding: 0 70px;
+    }
+}
+
+
+
+
+@media (min-width: 400px) and (max-width: 800px) {
+    .hero-bg {
+        background-position: 65% 0;
+        width: 100%;
+    }
+
+    .d-flex2 {
+        display: flex;
+    }
+
+    .nav-container {
+        width: 100%;
+        justify-content: space-between;
+        padding: 20px 50px;
+    }
+
+    .hero-container .web-text {
+        padding: 400px 300px 50px 30px;
+    }
+
+    .house-repair {
+        font-size: 3.0rem;
+    }
+
+    .services {
+        font-size: 5.0rem;
+    }
+
+    .section-two {
+        padding: 150px 40px 80px 40px;
+    }
+
+    .section-three {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 50px;
+    }
+
+    .section-three img {
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+        overflow: hidden;
+    }
+
+    .padd-left-tab {
+        padding-left: 50px;
+    }
+
+
+    .best-quality {
+        font-size: 3.8rem;
+        font-weight: 700;
+    }
+
+    .sect4a {
+        padding: 0 0 0 0;
+        width: 100%;
+        height: 700px;
+        object-fit: cover;
+        object-position: 0 50%;
+        overflow: hidden;
+    }
+
+    .section-four {
+        height: auto;
+        padding: 0 50px 0 20px;
+    }
+
+    .our-services {
+        padding-right: 20px;
+    }
+
+    .section-five {
+        padding: 30px 30px 120px 80px;
+    }
+
+    .section-six {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 40px 50px 40px;
+    }
+
+    .plumbing-text {
+        font-size: 4.5rem;
+        font-weight: 200;
+    }
+
+    .services-text {
+        margin: 10px;
+        font-size: 4.2rem;
+        font-weight: 700;
+    }
+
+    .pic-container {
+        width: 100%;
+        margin: 40px 0 0 0;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    img.img-sizes {
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+        overflow: hidden;
+        margin: 0;
+        padding: 20px 20px;
+    }
+
+    .d-flex3 {
+        display: flex;
+    }
+
+    .percent50-div {
+        width: 50%;
+    }
+
+    .about-us {
+        padding: 100px 20px 0 50px;
+    }
+
+    .section-seven {
+        padding: 80px 40px;
+    }
+
+    .button-div {
+        padding: 0 70px;
+    }
+}
